@@ -6,9 +6,13 @@
 
 ## Table of Contents
 * [General Info](#general-information)
+* [Business Goals](#business-goals)
+* [Model Building](#model-building)
+* [Steps For Model Building](#steps-for-model-building)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
+* [Contact](#contact)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
@@ -20,10 +24,22 @@ The company wants to understand the factors on which the demand for these shared
 2. How well those variables describe the bike demands
 3. Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors.
 
-Business Goals
+## Business Goals
 Bike Demand has to be modelled with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market.
 
+## Model Building
+In the dataset provided, you will notice that there are three columns named 'casual', 'registered', and 'cnt'. The variable 'casual' indicates the number casual users who have made a rental. The variable 'registered' on the other hand shows the total number of registered users who have made a booking on a given day. Finally, the 'cnt' variable indicates the total number of bike rentals, including both casual and registered. The model should be built taking this 'cnt' as the target variable.
 
+## Steps for Model Building
+1. Reading and Understanding Data
+2. Visualising the Data
+3. Data Preparation
+4. Splitting the Data into Training and Testing Sets
+5. Feature Scaling on the train data
+6. Building the Model
+7. Residual Analysis of the train data
+8. Making predictions using final model
+9. Model Evaluation
 
 ## Conclusions
 Driving Factors for bike sharing demand:
